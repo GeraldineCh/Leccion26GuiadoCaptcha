@@ -5,64 +5,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<title>Formulario</title>
+	<title>Captcha</title>
 </head>
 <body>
-	<header>
-		<h1>Formulario de Datos</h1>
-	</header>
-	<section>
-		<form action=""; required=""; id="formulario">
+<body>
+	
+	<h2>Captcha</h2>
+	<input type="text" id="ingreso"/><br>
+    <input type="button" id="cargar" value="Generar/Refrescar" onclick="generar();" /> <br><br>
+	<input type="text" id="ingreso2"/><br>    
+    <input id="Button1" type="button" value="Verificar" onclick="alert(validacion());"/>
 
-
-			<label for="name">Nombre</label><br>
-			<input type="text" id="name" required="" class="entrada" placeholder="Ingrese nombres" /><br>
-			<span id="mensaje"></span>
-			
-			<br><label for="ap">Apellido</label><br>
-			<input type="text" id="ap" required="" class="entrada" placeholder="Ingrese apellidos"/><br>
-			<span id="mensaje"></span>
-			
-			<br><label for="dni">DNI</label><br>
-			<input type="number" id="dni" required="" pattern="([0-9]{8})" class="entrada" placeholder="Ingrese DNI"/><br>
-			<span id="mensaje"></span>
-			
-			<br><label for="nac">Fecha de nacimiento</label><br>
-			<input type="date" id="nac" required="" min="01-01-1900" max="12-31-1999" class="entrada"/><br>
-			<span id="mensaje"></span>
-
-			<br><label for="cel">Celular</label><br>
-			<input type="number" id="cel" required="" pattern="([0-9]{9})" class="entrada" placeholder="Ingrese número de celular"/><br>
-			<span id="mensaje"></span>
-
-			<br><label for="fijo">Teléfono</label><br>
-			<input type="number" id="fijo" required="" pattern="([0-9]{7})" class="entrada" placeholder="Ingrese número fijo"/><br>
-			<span id="mensaje"></span>
-
-			<br><label for="pass">Contraseña</label><br>
-			<input type="password" id="pass" required="" class="entrada" placeholder="Ingrese contraseña"/><br>
-			<span id="mensaje"></span>
-
-			<br><label for="passw">Reconfirme contraseña</label><br>
-			<input type="password" id="passw" required="" class="entrada" placeholder="Ingrese contraseña"/><br>
-			<span id="mensaje"></span>
-
-			<br><label for="txarea">Comentarios</label><br>
-			<textarea rows="4" cols="50" placeholder="Déjenos sus comentarios"></textarea><br>
-			<span id="mensaje"></span>
-
-			<input type="checkbox" name="condiciones" value="yes" required="">Acepta términos y condiciones<br>
-			<span id="mensaje"></span>
-			
-
-			<p>
-				<button type="submit" id="registro">Registrar</button>
-			</p>
-		</form>
-	</section>
-	<div id="salida">
-		
-	</div>
-<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

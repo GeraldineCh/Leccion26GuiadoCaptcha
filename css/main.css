@@ -2,17 +2,11 @@ header {
 	text-align: center;
 }
 
-h1 {
+h2 {
 	font-family: 'Sofia', cursive;
 	color: blue;
 }
 
-form {
-	font-family: 'Lobster', cursive;
-	margin-top: 50px;
-	margin-left: 200px;
-	padding-left: 50px;
-}
 
 span {
 		font-family: 'Arial', cursive;
@@ -25,5 +19,4 @@ input {
 
 input[type="button"] {
 	font-family: 'Arial', cursive;
-	margin-left: 50px;
 }
